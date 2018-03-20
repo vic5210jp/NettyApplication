@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataItems>
+	<mkt code='SZ' mktName="深交所">
+		<type typeNo='1' name='股票'>
+			<sType thirpartNo='101' qnNo='0' sName='深圳A股' />
+			<sType thirpartNo='102' qnNo='1' sName='深圳B股' />
+			<sType thirpartNo='other' qnNo='2' sName='深圳其他股票类型' />
+		</type>
+		<type typeNo='5' name='指数'>
+			<sType thirpartNo='501' qnNo='3' sName='深圳股票指数' />
+			<sType thirpartNo='503' qnNo='4' sName='深圳基金指数' />
+			<sType thirpartNo='504' qnNo='5' sName='深圳复合指数' />
+			<sType thirpartNo='502' qnNo='6' sName='深圳债券指数' />
+			<sType thirpartNo='other' qnNo='7' sName='深圳其他指数' />
+		</type>
+		<type typeNo='3' name='基金'>
+			<sType thirpartNo='303' qnNo='8' sName='深圳ETF' />
+			<sType thirpartNo='304' qnNo='9' sName='深圳LOF' />
+			<sType thirpartNo='301' qnNo='10' sName='深圳契约性封闭式' />
+			<sType thirpartNo='302' qnNo='11' sName='深圳普通契约型开放式' />
+			<sType thirpartNo='other' qnNo='12' sName='深圳其他基金类型' />
+
+		</type>
+		<type typeNo='2' name='债券'>
+			<sType thirpartNo='227' qnNo='13' sName='深圳中小企业私募债' />
+			<sType thirpartNo='231' qnNo='14' sName='深圳中小企业集合私募债券' />
+			<sType thirpartNo='203' qnNo='15' sName='深圳企业债券' />
+			<sType thirpartNo='204' qnNo='16' sName='深圳公司债券' />
+			<sType thirpartNo='201' qnNo='17' sName='深圳国债' />
+			<sType thirpartNo='220' qnNo='18' sName='深圳地方政府债' />
+			<sType thirpartNo='211' qnNo='19' sName='深圳非银行金融机构债券' />
+			<sType thirpartNo='205' qnNo='20' sName='深圳可转换债' />
+			<sType thirpartNo='other' qnNo='21' sName='深圳其他债券类型' />
+		</type>
+
+		<type typeNo='4' name='权证'>
+			<sType thirpartNo='402' qnNo='22' sName='深圳认沽权证' />
+			<sType thirpartNo='401' qnNo='23' sName='深圳认购权证' />
+			<sType thirpartNo='other' qnNo='24' sName='深圳其他权证类型' />
+		</type>
+
+		<type typeNo='6' name='回购'>
+			<sType thirpartNo='702' qnNo='25' sName='深圳买断式回购' />
+			<sType thirpartNo='701' qnNo='26' sName='深圳质押式回购' />
+			<sType thirpartNo='other' qnNo='27' sName='深圳其他回购类型' />
+		</type>
+	</mkt>
+	<mkt code='SH' mktName="上交所">
+		<type typeNo='1' name='股票'>
+			<sType thirpartNo='101' qnNo='28' sName='上海A股' />
+			<sType thirpartNo='102' qnNo='29' sName='上海B股' />
+			<sType thirpartNo='other' qnNo='30' sName='上海其他股票类型' />
+		</type>
+		<type typeNo='5' name='指数'>
+			<sType thirpartNo='501' qnNo='31' sName='上海股票指数' />
+			<sType thirpartNo='503' qnNo='32' sName='上海基金指数' />
+			<sType thirpartNo='504' qnNo='33' sName='上海复合指数' />
+			<sType thirpartNo='502' qnNo='34' sName='上海债券指数' />
+			<sType thirpartNo='other' qnNo='35' sName='上海其他指数' />
+		</type>
+		<type typeNo='3' name='基金'>
+			<sType thirpartNo='303' qnNo='36' sName='上海ETF' />
+			<sType thirpartNo='304' qnNo='37' sName='上海LOF' />
+			<sType thirpartNo='301' qnNo='38' sName='上海契约性封闭式' />
+			<sType thirpartNo='302' qnNo='39' sName='上海普通契约型开放式' />
+			<sType thirpartNo='other' qnNo='40' sName='上海其他基金类型' />
+
+		</type>
+		<type typeNo='2' name='债券'>
+			<sType thirpartNo='227' qnNo='41' sName='上海中小企业私募债' />
+			<sType thirpartNo='231' qnNo='42' sName='上海中小企业集合私募债券' />
+			<sType thirpartNo='203' qnNo='43' sName='上海企业债券' />
+			<sType thirpartNo='204' qnNo='44' sName='上海公司债券' />
+			<sType thirpartNo='201' qnNo='45' sName='上海国债' />
+			<sType thirpartNo='220' qnNo='46' sName='上海地方政府债' />
+			<sType thirpartNo='211' qnNo='47' sName='上海非银行金融机构债券' />
+			<sType thirpartNo='205' qnNo='48' sName='上海可转换债' />
+			<sType thirpartNo='other' qnNo='49' sName='上海其他债券类型' />
+		</type>
+
+		<type typeNo='4' name='权证'>
+			<sType thirpartNo='402' qnNo='50' sName='上海认沽权证' />
+			<sType thirpartNo='401' qnNo='51' sName='上海认购权证' />
+			<sType thirpartNo='other' qnNo='52' sName='上海其他权证类型' />
+		</type>
+
+		<type typeNo='6' name='回购'>
+			<sType thirpartNo='702' qnNo='53' sName='上海买断式回购' />
+			<sType thirpartNo='701' qnNo='54' sName='上海质押式回购' />
+			<sType thirpartNo='other' qnNo='55' sName='上海其他回购类型' />
+		</type>
+	</mkt>
+</dataItems>

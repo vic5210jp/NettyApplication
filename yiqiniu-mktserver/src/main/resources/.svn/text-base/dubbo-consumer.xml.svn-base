@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        ">
+
+	<!-- 客户端应用的名称 -->
+	<dubbo:application name="yiqiniu-mktserver-hk" />
+
+	<!-- 注册远程地址，用于客户端连接服务端 -->
+	<dubbo:registry address="#{defaultConfig.val['zookeeper.url']}" client="zkclient" check="false" />
+
+	<!-- 远程服务中心API -->
+	<dubbo:reference id="jobService" interface="com.yiqiniu.api.common.service.JobService" check="false" />
+
+</beans>

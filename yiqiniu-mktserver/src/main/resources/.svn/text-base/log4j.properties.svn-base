@@ -1,0 +1,36 @@
+#log4j.rootLogger=info,stdout,logfile,errfile,MongoDB
+
+log4j.rootLogger=info,stdout,logfile,errfile
+
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.Target=System.out
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d %p [%c] - %m%n
+
+log4j.appender.logfile=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.logfile.File=logs/info.log
+log4j.appender.logfile.layout=org.apache.log4j.PatternLayout
+log4j.appender.logfile.layout.ConversionPattern=%d %p [%c] - %m%n
+
+log4j.appender.errfile=org.apache.log4j.RollingFileAppender
+log4j.appender.errfile.MaxFileSize=5000KB
+log4j.appender.errfile.MaxBackupIndex=3
+log4j.appender.errfile.File=logs/err.log
+log4j.appender.errfile.layout=org.apache.log4j.PatternLayout
+log4j.appender.errfile.layout.ConversionPattern=%d %p [%c] - %m%n
+log4j.appender.errfile.Threshold = ERROR
+
+log4j.logger.org.apache.zookeeper=OFF
+log4j.logger.com.alibaba=OFF
+log4j.logger.druid.sql=OFF
+log4j.logger.org.springframework.jdbc=OFF
+log4j.logger.com.atomikos.jdbc=OFF
+
+
+#log4j.appender.MongoDB=com.yiqiniu.log4mongo.AsynMongoLogAppender
+#log4j.appender.MongoDB.layout=com.yiqiniu.log4mongo.contrib.HostInfoPatternLayout
+#log4j.appender.MongoDB.layout.ConversionPattern={"createTime":"%d","level":"%p","className":"%c","message":"%m","ip":"%I"}
+#log4j.appender.MongoDB.mongoURI=mongodb://192.168.1.178:27017/yiqiniu-task?slaveOk=true
+#log4j.appender.MongoDB.jvmMonitor=true
+#log4j.appender.MongoDB.jvmMonitorPeriodSeconds=60
